@@ -1,0 +1,56 @@
+body {
+  background-color: grey;
+}
+
+button {
+  white-space: nowrap;
+}
+
+form {
+  margin: 0 10%;
+}
+
+.container-fluid {
+  font-family: "Montserrat";
+  padding: 0 15%;
+  min-width: 304px;
+  word-wrap: break-word;
+}
+
+.navbar {
+  background-color: grey;
+  margin: 0;
+}
+
+.row {
+  margin: 0 0 20px;
+}
+#brandname {
+  color: orange;
+  font-size: 3rem;
+  padding-left: 20px;
+}
+
+#howto {
+  color: white;
+  font-family: "Roboto";
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+#location {
+  color: white;
+  font-family: "Roboto";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+#videoArea {
+  padding: 0 10px 0;
+}
+
+#youtubeIcon {
+  display: block;
+  margin: auto;
+  width: 100%;
+}
