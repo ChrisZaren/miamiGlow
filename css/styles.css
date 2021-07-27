@@ -1,5 +1,5 @@
 body {
-  background-color: grey;
+  background-color: #393E46;
 }
 
 button {
@@ -18,17 +18,22 @@ form {
 }
 
 .navbar {
-  background-color: grey;
   margin: 0;
 }
 
 .row {
   margin: 0 0 20px;
 }
+
 #brandname {
-  color: orange;
+  color: #FFC107;
   font-size: 3rem;
   padding-left: 20px;
+}
+
+#formArea {
+  background-color: white;
+  padding: 10px 0 10px 0;
 }
 
 #howto {
