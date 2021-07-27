@@ -7,7 +7,11 @@ button {
 }
 
 form {
-  margin: 0 10%;
+  margin: 0 8%;
+}
+
+p {
+  color: white;
 }
 
 .container-fluid {
@@ -27,12 +31,12 @@ form {
 
 #brandname {
   color: #FFC107;
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding-left: 20px;
 }
 
 #formArea {
-  background-color: white;
+  background-color: black;
   padding: 10px 0 10px 0;
 }
 
@@ -48,6 +52,11 @@ form {
   font-family: "Roboto";
   font-size: 2.5rem;
   font-weight: bold;
+}
+
+#priceColumn {
+  margin-top: 15px;
+  text-align: center;
 }
 
 #videoArea {
