@@ -54,13 +54,13 @@
     </div>
 
     <div class="row" id="formArea">
-      <div class="col-lg-8">
+      <div class="col-xl-8">
         <form class="" action="">
           <div class="row">
             <div class="col-md-4">
               <div class="form-group">
                 <label for="firstName"></label>
-                <input type="text" class="form-control" name="firstName" id="firstName" value="" placeholder="First Name">
+                <input type="text" class="form-control" name="name" id="name" value="" placeholder="Name">
               </div>
             </div>
             <div class="col-md-4">
@@ -79,42 +79,42 @@
           <div class="row">
             <div class="col-sm-12">
               <div class="form-group">
-                <label for="vehicleSize">Vehicle Size</label>
+                <label id="vehicleSizeText" for="vehicleSize">Vehicle Size: *MAKE CHANGEABLE WITH SLIDER (RANGE)</label>
                 <input type="range" class="form-range" id="sizeRange" min="0" max="5">
               </div>
             </div>
           </div>
           <div class="row">
-            <div class="col-sm-2">
+            <div class="col-md-2 col-sm-12">
               <div class="form-group d-grid gap-2 mx-auto">
                 <button type="button" class="btn btn-outline-warning btn-lg">Exterior</button>
               </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-md-2 col-sm-12">
               <div class="form-group d-grid gap-2 mx-auto">
                 <button type="button" class="btn btn-outline-warning btn-lg">Interior</button>
               </div>
             </div>
-            <div class="col-sm-2">
+            <div class="col-md-2 col-sm-12">
               <div class="form-group d-grid gap-2 mx-auto">
                 <button type="button" class="btn btn-outline-warning btn-lg">Wax</button>
               </div>
             </div>
-              <div class="col-sm-2">
-                <div class="form-group d-grid gap-2 mx-auto">
-                  <button type="button" class="btn btn-outline-warning btn-lg">Engine Bay</button>
-                </div>
+            <div class="col-md-2 col-sm-12">
+              <div class="form-group d-grid gap-2 mx-auto">
+                <button type="button" class="btn btn-outline-warning btn-lg">Engine Bay</button>
               </div>
-              <div class="col-sm-2">
-                <div class="form-group d-grid gap-2 mx-auto">
-                  <button type="button" class="btn btn-outline-warning btn-lg">Clay Bar</button>
-                </div>
+            </div>
+            <div class="col-md-2 col-sm-12">
+              <div class="form-group d-grid gap-2 mx-auto">
+                <button type="button" class="btn btn-outline-warning btn-lg">Clay Bar</button>
               </div>
-              <div class="col-sm-2">
-                <div class="form-group d-grid gap-2 mx-auto">
-                  <button type="button" class="btn btn-outline-warning btn-lg">Ozone</button>
-                </div>
+            </div>
+            <div class="col-md-2 col-sm-12">
+              <div class="form-group d-grid gap-2 mx-auto">
+                <button type="button" class="btn btn-outline-warning btn-lg">Ozone</button>
               </div>
+            </div>
           </div>
           <div class="row">
             <div id="priceColumn">
@@ -128,8 +128,20 @@
           </div>
         </form>
       </div>
-      <div class="col-lg-4 d-flex" id="videoArea">
+      <div class="col-xl-4 d-flex" id="videoArea">
         <img id="youtubeIcon" class="rounded align-items-center border border-warning" src="images/youtubeLoading.jpeg" alt="youtube-loading">
+      </div>
+    </div>
+  </section>
+  <section id="testimonial">
+    <div class="row">
+      <div id="testimonialDivider" class="col-xl-6">
+        <p class="text-center">Miami Glow has changed my idea of what great service could be</p>
+        <p class="text-center">-Mom</p>
+      </div>
+      <div class="col-xl-6">
+        <p class="text-center">They really have the handsomest team!</p>
+        <p class="text-center">-Grandma</p>
       </div>
     </div>
   </section>

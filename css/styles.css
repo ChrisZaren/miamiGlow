@@ -37,6 +37,7 @@ p {
 
 #formArea {
   background-color: black;
+  margin-bottom: 0;
   padding: 10px 0 10px 0;
 }
 
@@ -57,6 +58,20 @@ p {
 #priceColumn {
   margin-top: 15px;
   text-align: center;
+}
+
+#testimonial {
+  background-color: #393E46;
+  font-family: "Roboto";
+  font-size: 1.5rem;
+}
+
+#testimonialDivider {
+  border-right: 1px solid #FFC107;
+}
+
+#vehicleSizeText {
+  color: #FFC107;
 }
 
 #videoArea {
